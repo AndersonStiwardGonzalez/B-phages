@@ -21,7 +21,7 @@ with st.container():
       with tomas_column:
         st.write("Tomas Molina Benjumea")
         with anderson_column:
-          st.write("m
+          st.write("Anderson Stiward González Rivera")
 with st.container():
   st.write("---")
   st.title("Mision")
