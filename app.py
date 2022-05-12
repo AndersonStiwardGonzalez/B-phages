@@ -24,8 +24,6 @@ with st.container():
   st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")
-with st.container():
-  st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")  
 with st.container():
