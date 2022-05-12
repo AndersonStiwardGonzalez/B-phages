@@ -24,6 +24,10 @@ with st.container():
           st.write("Anderson Stiward González Rivera")
 with st.container():
   st.write("---")
+  st.title("Un videito para saber más")
+  st.write("misionintesrtezasfsfs")          
+with st.container():
+  st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")
   st.title("Vision")
