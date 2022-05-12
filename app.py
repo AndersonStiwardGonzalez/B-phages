@@ -1,6 +1,6 @@
 #Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
 import streamlit as st
-st.set_page_config(page_title="B-phages", page_icon=":dna:",page_icon=":petri_dish:", layout="wide")
+st.set_page_config(page_title="B-phages", page_icon=":dna:", layout="wide")
 st.subheader("¡Hola! Somos uB-phages :wave:")
 st.title("Somos una empresa comprometida con tu salud")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
