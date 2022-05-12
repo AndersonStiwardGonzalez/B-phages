@@ -16,10 +16,12 @@ with st.container():
   with ana_column:
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
     with carolina_column:
-      st.image("aaaaana.jpg")
+      st.write("Diana Carolina Giralda Valderrama")
       st.image("homer.gif")
-      with left_column:
-        st.write("melooo")
+      with tomas_column:
+        st.write("Tomas Molina Benjumea")
+        with anderson_column:
+          st.write("m
 with st.container():
   st.write("---")
   st.title("Mision")
