@@ -12,19 +12,21 @@ st.image("jajaja.jpeg")
 with st.container():
   st.write("---")
   st.title("Equipo de trabajo")
-  left_column, right_column = st.columns(2)
-  with left_column:
+  first_column, second_column, third_column, forth_column = st.columns(4)
+  with first_column:
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
-    with right_column:
+    with second_column:
       st.image("aaaaana.jpg")
       st.image("homer.gif")
-      with left_column:
-        st.write("melooo", font= "sans serif" )
+      with third_column:
+        st.write("melooo")
+        with forth_column:
+          write("Anderson Stiward González Rivera")
 with st.container():
   st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")
-  st.title("Mision")
+  st.title("Vision")
   st.write("misionintesrtezasfsfs")  
 with st.container():
   st.write("---")
