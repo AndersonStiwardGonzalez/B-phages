@@ -13,4 +13,4 @@ with st.container():
   st.title("Equipo de trabajo")
   left_column, right_column = st.columns(2)
   with left_column:
-    st.subheader("Ana Maria Ruiz León")
+    st.subheader("[Ana Maria Ruiz León] (https://co.linkedin.com/)")
