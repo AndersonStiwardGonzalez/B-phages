@@ -14,3 +14,6 @@ with st.container():
   left_column, right_column = st.columns(2)
   with left_column:
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
+    with right_column:
+      st.image("aaaaana.jpg")
+    
