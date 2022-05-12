@@ -19,8 +19,7 @@ with st.container():
       st.image("aaaaana.jpg")
       st.image("homer.gif")
       with left_column:
-        font= "sans serif" 
-        st.write("melooo")
+        st.write("melooo", font= "sans serif" )
 with st.container():
   st.write("---")
   st.title("Mision")
