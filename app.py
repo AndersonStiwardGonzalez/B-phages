@@ -12,7 +12,7 @@ st.image("jajaja.jpeg")
 with st.container():
   st.write("---")
   st.title("Equipo de trabajo")
-  left_column, right_column = st.columns(2)
+  ana_column, carolina_column, tomas_column, anderson_column= st.columns(4)
   with left_column:
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
     with right_column:
@@ -24,7 +24,7 @@ with st.container():
   st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")
-  st.title("Mision")
+  st.title("Vision")
   st.write("misionintesrtezasfsfs")  
 with st.container():
   st.write("---")
