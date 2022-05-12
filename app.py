@@ -30,11 +30,11 @@ with st.container():
   st.write("misionintesrtezasfsfs")  
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Principios y valores")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Código CIIU")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
