@@ -2,7 +2,7 @@
 import streamlit as st
 st.set_page_config(page_title="B-phages", page_icon=":dna:", layout="wide")
 st.title("¡Hola! Somos B-phages :wave:")
-st.sunheader("Somos una empresa comprometida con tu salud")
+st.subheader("Somos una empresa comprometida con tu salud")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
 st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=VqgUkExPvLY)")
