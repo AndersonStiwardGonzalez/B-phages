@@ -24,8 +24,7 @@ with st.container():
           st.write("Anderson Stiward González Rivera")
 with st.container():
   st.write("---")
-  st.title("Un videito para saber más")
-  st.write("misionintesrtezasfsfs")          
+  st.write("[B-phages"](https://www.youtube.com/)")         
 with st.container():
   st.write("---")
   st.title("Mision")
