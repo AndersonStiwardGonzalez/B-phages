@@ -10,3 +10,7 @@ st.audio("y2mate.com - Bad Bunny  Tu No Metes Cabra Video Oficial.mp3")
 st.image("jajaja.jpeg")
 with st.container():
   st.write("---")
+  st.title("Equipo de trabajo")
+  left_column, right_column = st.columns(2)
+  with left_column:
+    st.subheader("Ana Maria Ruiz León")
