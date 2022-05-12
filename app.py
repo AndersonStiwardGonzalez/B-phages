@@ -13,9 +13,9 @@ with st.container():
   st.write("---")
   st.title("Equipo de trabajo")
   ana_column, carolina_column, tomas_column, anderson_column= st.columns(4)
-  with left_column:
+  with ana_column:
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
-    with right_column:
+    with carolina_column:
       st.image("aaaaana.jpg")
       st.image("homer.gif")
       with left_column:
