@@ -20,7 +20,7 @@ with st.container():
       st.image("homer.gif")
       with left_column:
         st.write("melooo")
-   with st.container():
-    st.tittle("Mision")
+    with st.container():
+      st.tittle("Mision")
 
   
