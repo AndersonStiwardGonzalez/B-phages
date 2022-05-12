@@ -21,6 +21,6 @@ with st.container():
       with left_column:
         st.write("melooo")
     with st.container():
-      st.tittle("Mision")
+      st.title("Mision")
 
   
