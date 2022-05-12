@@ -1,4 +1,5 @@
 #Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
+#pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
 import streamlit as st
 st.set_page_config(page_title="B-phages", page_icon=":dna:", layout="wide")
 st.title("¡Hola! Somos B-phages :wave:")
@@ -18,4 +19,4 @@ with st.container():
       st.image("aaaaana.jpg")
       st.image("homer.gif")
     st.write("melooo")
-    St.write("ola mi ase")
+  
