@@ -16,4 +16,5 @@ with st.container():
     st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
     with right_column:
       st.image("aaaaana.jpg")
+      st.image("homer.gif")
     
