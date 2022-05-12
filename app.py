@@ -19,5 +19,5 @@ with st.container():
       st.image("aaaaana.jpg")
       st.image("homer.gif")
       with left_column:
-      st.write("melooo")
+        st.write("melooo")
   
