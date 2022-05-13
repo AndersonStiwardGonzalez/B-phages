@@ -94,24 +94,4 @@ with st.container():
     with w_column:
       st.write("WhatsApp")
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
