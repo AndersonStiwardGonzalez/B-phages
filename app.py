@@ -66,7 +66,7 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Impactos sociales y externalidades")
   st.write("misionintesrtezasfsfs")   
   
  
