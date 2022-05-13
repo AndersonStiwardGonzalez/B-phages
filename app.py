@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("¡Hola! Somos B-phages :wave:")
 
-st.subheader("Somos una empresa comprometida con tu salud")
+st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
 st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=VqgUkExPvLY)")
