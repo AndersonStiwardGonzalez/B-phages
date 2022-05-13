@@ -8,7 +8,6 @@ st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
 st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=VqgUkExPvLY)")
-st.audio("y2mate.com - Bad Bunny  Tu No Metes Cabra Video Oficial.mp3")
 
 with st.container():
     st.write("---")
@@ -17,7 +16,7 @@ with st.container():
     with ana_column:
 
         st.write("Ana Maria Ruiz León")
-        st.image("homer.gif")
+        st.image("_MG_1613.jpg")
         st.write("Gerente de la empresa")
         st.write("[Conoce más de Ana](https://co.linkedin.com/)")
         
