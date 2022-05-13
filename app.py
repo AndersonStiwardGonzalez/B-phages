@@ -1,5 +1,5 @@
-#Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
-#pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
+# Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
+# pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
 import streamlit as st
 
 st.title("¡Hola! Somos B-phages :wave:")
@@ -11,87 +11,101 @@ st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=V
 st.audio("y2mate.com - Bad Bunny  Tu No Metes Cabra Video Oficial.mp3")
 st.image("jajaja.jpeg")
 with st.container():
-  st.write("---")
-  st.title("Equipo de trabajo")
-  ana_column, carolina_column, tomas_column, anderson_column= st.columns(4)
-  with ana_column:
-    st.write("[Ana Maria Ruiz León](https://co.linkedin.com/)")
-    with carolina_column:
-      st.write("Diana Carolina Giralda Valderrama")
-      st.image("homer.gif")
-      with tomas_column:
-        st.write("Tomas Molina Benjumea")
-        with anderson_column:
-          st.write("Anderson Stiward González Rivera")
+    st.write("---")
+    st.title("Equipo de trabajo")
+    ana_column, carolina_column, tomas_column, anderson_column = st.columns(4)
+    with ana_column:
+
+        st.subheader("Ana Maria Ruiz León")
+        st.image("homer.gif")
+        St.write("Gerente de la empresa")
+        st.write("[Conoce más de Ana](https://co.linkedin.com/)")
+        
+        with carolina_column:
+            st.subheader("Diana Carolina Giralda Valderrama")
+            st.image("homer.gif")
+            St.write("Gerente de la empresa")
+            st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
+            
+            with tomas_column:
+                st.subheader("Tomas Molina Benjumea")
+                st.image("homer.gif")
+                St.write("Gerente de la empresa")
+                st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
+                with anderson_column:
+                    st.subheader("Anderson Stiward González Rivera")
+                    st.image("homer.gif")
+                    St.write("Gerente de la empresa")
+                    st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
+
 
 with st.container():
-  st.write("---")
-  st.write("[B-phages](https://www.youtube.com/)")         
+    st.write("---")
+    st.write("[B-phages](https://www.youtube.com/)")
 
 with st.container():
-  st.write("---")
-  st.title("Mision")
-  st.write("misionintesrtezasfsfs")
-  st.title("Vision")
-  st.write("misionintesrtezasfsfs")  
+    st.write("---")
+    st.title("Mision")
+    st.write("misionintesrtezasfsfs")
+    st.title("Vision")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Principios y valores")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Principios y valores")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Código CIIU")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Código CIIU")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Lienzo de canvas")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Lienzo de canvas")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Análisis del sector")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Análisis del sector")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Matriz D.O.F.A")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Matriz D.O.F.A")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Productos")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Productos")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Competencia: Modelo de Porter")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Competencia: Modelo de Porter")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Plan de mercadeo 4ps")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Plan de mercadeo 4ps")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Plan financiero")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Plan financiero")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("Impactos sociales y externalidades")
-  st.write("misionintesrtezasfsfs")
+    st.write("---")
+    st.title("Impactos sociales y externalidades")
+    st.write("misionintesrtezasfsfs")
 
 with st.container():
-  st.write("---")
-  st.title("¡Contáctanos!")
-  i_column,w_column,c_column,y_column = st.columns(4)
-  with i_column:
-    st.write("Instagram")
-    with w_column:
-      st.write("WhatsApp")
- 
- 
+    st.write("---")
+    st.title("¡Contáctanos!")
+    i_column, w_column, c_column, y_column = st.columns(4)
+    with i_column:
+        st.write("Instagram")
+        with w_column:
+            st.write("WhatsApp")
+
