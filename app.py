@@ -34,7 +34,7 @@ with st.container():
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
                     st.write("Anderson Stiward González Rivera")
-                    st.image("_MG_1613.jpg")
+                    st.image("_MG_1613.jpg)
                     st.write("Jefe de talento humano de la empresa")
                     st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
 
