@@ -16,24 +16,24 @@ with st.container():
     ana_column, carolina_column, tomas_column, anderson_column = st.columns(4)
     with ana_column:
 
-        st.subheader("Ana Maria Ruiz León")
+        st.write("Ana Maria Ruiz León")
         st.image("homer.gif")
         st.write("Gerente de la empresa")
         st.write("[Conoce más de Ana](https://co.linkedin.com/)")
         
         with carolina_column:
-            st.subheader("Diana Carolina Giralda Valderrama")
+            st.write("Diana Carolina Giralda Valderrama")
             st.image("homer.gif")
             st.write("Gerente de la empresa")
             st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
             
             with tomas_column:
-                st.subheader("Tomas Molina Benjumea")
+                st.write("Tomas Molina Benjumea")
                 st.image("homer.gif")
                 st.write("Gerente de la empresa")
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
-                    st.subheader("Anderson Stiward González Rivera")
+                    st.write("Anderson Stiward González Rivera")
                     st.image("homer.gif")
                     st.write("Gerente de la empresa")
                     st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
