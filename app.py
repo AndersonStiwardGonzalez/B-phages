@@ -35,7 +35,7 @@ with st.container():
                 with anderson_column:
                     st.subheader("Anderson Stiward González Rivera")
                     st.image("homer.gif")
-                    St.write("Gerente de la empresa")
+                    st.write("Gerente de la empresa")
                     st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
 
 
