@@ -6,7 +6,7 @@ st.title("B-phages")
 st.image("_MG_1613.jpg")
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
-st.write("Somos los mejores, somos una retrochimba")
+st.write("Somos los mejores")
 st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=VqgUkExPvLY)")
 
 with st.container():
