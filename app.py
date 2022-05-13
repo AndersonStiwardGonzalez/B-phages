@@ -2,14 +2,14 @@
 # pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
 import streamlit as st
 
-st.title("¡Hola! Somos B-phages :wave:")
-
+st.title("B-phages")
+st.image("jajaja.jpeg")
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
 st.write("[Aprende más de como ser cool --->](https://www.youtube.com/watch?v=VqgUkExPvLY)")
 st.audio("y2mate.com - Bad Bunny  Tu No Metes Cabra Video Oficial.mp3")
-st.image("jajaja.jpeg")
+
 with st.container():
     st.write("---")
     st.title("Equipo de trabajo")
