@@ -23,60 +23,73 @@ with st.container():
         st.write("Tomas Molina Benjumea")
         with anderson_column:
           st.write("Anderson Stiward González Rivera")
+
 with st.container():
   st.write("---")
   st.write("[B-phages](https://www.youtube.com/)")         
+
 with st.container():
   st.write("---")
   st.title("Mision")
   st.write("misionintesrtezasfsfs")
   st.title("Vision")
   st.write("misionintesrtezasfsfs")  
+
 with st.container():
   st.write("---")
   st.title("Principios y valores")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Código CIIU")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Lienzo de canvas")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Análisis del sector")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Matriz D.O.F.A")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Productos")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Competencia: Modelo de Porter")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Plan de mercadeo 4ps")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Plan financiero")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("Impactos sociales y externalidades")
   st.write("misionintesrtezasfsfs")
+
 with st.container():
   st.write("---")
   st.title("¡Contáctanos!")
   i_column,w_column,c_column,y_column = st.columns(4)
-  with i_column:
+   with i_column:
     st.write("Instagram")
     with w_column:
       st.write("WhatsApp")
