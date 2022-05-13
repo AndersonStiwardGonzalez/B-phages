@@ -74,7 +74,7 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("¡Contáctanos!)
+  st.title("¡Contáctanos!")
   st.write("misionintesrtezasfsfs")   
   
  
