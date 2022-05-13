@@ -72,9 +72,9 @@ with st.container():
   st.write("---")
   st.title("Impactos sociales y externalidades")
   st.write("misionintesrtezasfsfs")
-with ay.container():
+with st.container():
   st.write("---")
-  st.title("Impactos sociales y externalidades")
+  st.title("¡Contáctanos!)
   st.write("misionintesrtezasfsfs")   
   
  
