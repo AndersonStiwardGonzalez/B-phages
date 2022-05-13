@@ -18,19 +18,19 @@ with st.container():
 
         st.subheader("Ana Maria Ruiz León")
         st.image("homer.gif")
-        St.write("Gerente de la empresa")
+        st.write("Gerente de la empresa")
         st.write("[Conoce más de Ana](https://co.linkedin.com/)")
         
         with carolina_column:
             st.subheader("Diana Carolina Giralda Valderrama")
             st.image("homer.gif")
-            St.write("Gerente de la empresa")
+            st.write("Gerente de la empresa")
             st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
             
             with tomas_column:
                 st.subheader("Tomas Molina Benjumea")
                 st.image("homer.gif")
-                St.write("Gerente de la empresa")
+                st.write("Gerente de la empresa")
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
                     st.subheader("Anderson Stiward González Rivera")
