@@ -28,7 +28,7 @@ with st.container():
             
             with tomas_column:
                 st.write("Tomas Molina Benjumea")
-                st.image("homer.gif")
+                st.image("_MG_1613.jpg")
                 st.write("Jefe de Calidad de la empresa")
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
