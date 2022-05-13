@@ -75,8 +75,9 @@ with st.container():
 with st.container():
   st.write("---")
   st.title("¡Contáctanos!")
-  st.write("misionintesrtezasfsfs")   
-  
+  i_column,w_column,c_column,y_column = st.columns(4)
+  With i_column
+  st.write("Instagram")
  
   
   
