@@ -2,7 +2,7 @@
 #pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
 import streamlit as st
 
-st.title("[¡Hola! Somos B-phages :wave:](Font="Cooper Black)")
+st.title("¡Hola! Somos B-phages :wave:")
 
 st.subheader("Somos una empresa comprometida con tu salud")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
