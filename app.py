@@ -46,7 +46,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.title("Mision")
-    st.write("misionintesrtezasfsfs")
+    st.write("Somos una empresa de base biotecnológica comprometida con la salud pública. Buscamos generar tratamientos efectivos para infecciones bacterianas mediante el uso de la medicina personalizada con bacteriófagos. Estamos interesados en mitigar la problemática causada por la resistencia a los antibióticos, apoyándonos en nuevas tecnologías que nos permitan tener un buen acompañamiento y la mejor atención a nuestros usuarios. Trabajamos de la mano de la bioética con valores que reafirman nuestro compromiso como son la calidad, el respeto y la honestidad.")
     st.title("Vision")
     st.write("misionintesrtezasfsfs")
 
