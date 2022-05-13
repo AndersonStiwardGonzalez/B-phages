@@ -3,7 +3,7 @@
 import streamlit as st
 
 st.title("¡Hola! Somos B-phages :wave:")
-with st.text ("Melos")
+with st.text("Melos")
 font="Cooper Black"
 
 st.subheader("Somos una empresa comprometida con tu salud")
