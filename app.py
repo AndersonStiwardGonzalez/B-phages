@@ -50,11 +50,11 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.tittle("Matriz D.O.F.A")
+  st.title("Matriz D.O.F.A")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.tittle("Productos")
+  st.title("Productos")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
@@ -62,7 +62,7 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  ay.tittle("Plan de mercadeo 4ps")
+  ay.title("Plan de mercadeo 4ps")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
