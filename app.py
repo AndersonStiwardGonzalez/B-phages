@@ -24,18 +24,18 @@ with st.container():
         with carolina_column:
             st.write("Diana Carolina Giralda Valderrama")
             st.image("homer.gif")
-            st.write("Gerente de la empresa")
+            st.write("Jefe de Mercadeo de la empresa")
             st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
             
             with tomas_column:
                 st.write("Tomas Molina Benjumea")
                 st.image("homer.gif")
-                st.write("Gerente de la empresa")
+                st.write("Jefe de Calidad de la empresa")
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
                     st.write("Anderson Stiward González Rivera")
                     st.image("homer.gif")
-                    st.write("Gerente de la empresa")
+                    st.write("Jefe de talento humano de la empresa")
                     st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
 
 
@@ -45,10 +45,10 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.title("Mision")
+    st.title("Misión")
     st.write("Somos una empresa de base biotecnológica comprometida con la salud pública. Buscamos generar tratamientos efectivos para infecciones bacterianas mediante el uso de la medicina personalizada con bacteriófagos. Estamos interesados en mitigar la problemática causada por la resistencia a los antibióticos, apoyándonos en nuevas tecnologías que nos permitan tener un buen acompañamiento y la mejor atención a nuestros usuarios. Trabajamos de la mano de la bioética con valores que reafirman nuestro compromiso como son la calidad, el respeto y la honestidad.")
-    st.title("Vision")
-    st.write("misionintesrtezasfsfs")
+    st.title("Visión")
+    st.write("Para el año 2032 nos proyectamos como una empresa independiente, posicionada en el mercado colombiano, con miras hacia un reconocimiento internacional en la industria biotecnológica enfocada a la medicina personalizada, siendo pioneros en latinoamérica en el tratamiento de infecciones bacterianas y respetando los fundamentos éticos que nos permitieron un reconocimiento en el territorio nacional.")
 
 with st.container():
     st.write("---")
