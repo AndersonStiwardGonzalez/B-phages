@@ -23,7 +23,7 @@ with st.container():
         
         with carolina_column:
             st.write("Diana Carolina Giralda Valderrama")
-            st.image("homer.gif")
+            st.image("_MG_1613.jpg")
             st.write("Jefe de Mercadeo de la empresa")
             st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
             
