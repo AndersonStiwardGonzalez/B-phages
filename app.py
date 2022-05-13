@@ -21,7 +21,7 @@ opt.config(width=90, font=('Helvetica', 12))
 opt.pack()
 
 app.mainloop()
-st.title("¡Hola! Somos B-phages :wave:","<p style="font-family:Courier")
+st.title("¡Hola! Somos B-phages :wave:",p style="font-family:Courier)
 st.subheader("Somos una empresa comprometida con tu salud")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
