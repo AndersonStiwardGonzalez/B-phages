@@ -1,27 +1,8 @@
 #Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
 #pagina: https://share.streamlit.io/andersonstiwardgonzalez/aaaaaaaaaaaaaaaaaaaa/main/app.py
 import streamlit as st
-import tkinter as tk
-OptionList = [
-"caro",
-"Anderson",
-"Ana",
-"Tomas"
-] 
 
-app = tk.Tk()
-
-app.geometry('100x200')
-
-variable = tk.StringVar(app)
-variable.set(OptionList[0])
-
-opt = tk.OptionMenu(app, variable, *OptionList)
-opt.config(width=90, font=('Helvetica', 12))
-opt.pack()
-
-app.mainloop()
-st.title("¡Hola! Somos B-phages :wave:"p style="font-family:Courier)
+st.title(p style="font-family:Courier("¡Hola! Somos B-phages :wave:"))
 st.subheader("Somos una empresa comprometida con tu salud")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores, somos una retrochimba")
