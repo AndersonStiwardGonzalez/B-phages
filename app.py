@@ -62,7 +62,7 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  ay.title("Plan de mercadeo 4ps")
+  st.title("Plan de mercadeo 4ps")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
