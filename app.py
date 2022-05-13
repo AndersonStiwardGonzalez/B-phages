@@ -90,8 +90,8 @@ with st.container():
   st.title("¡Contáctanos!")
   i_column,w_column,c_column,y_column = st.columns(4)
    with i_column:
-    st.write("Instagram")
-    with w_column:
-      st.write("WhatsApp")
+     st.write("Instagram")
+     with w_column:
+       st.write("WhatsApp")
  
  
