@@ -42,27 +42,31 @@ with st.container():
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Lienzo de canvas")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Análisis del sector")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.tittle("Matriz D.O.F.A")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.tittle("Productos")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  st.title("Competencia: Modelo de Porter")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
-  st.title("Mision")
+  ay.tittle("Plan de mercadeo 4ps")
+  st.write("misionintesrtezasfsfs")
+with st.container():
+  st.write("---")
+  st.title("Plan financiero")
   st.write("misionintesrtezasfsfs")
 with st.container():
   st.write("---")
