@@ -105,7 +105,9 @@ with st.container():
     i_column, w_column, c_column, y_column = st.columns(4)
     with i_column:
         st.write("Instagram")
+        st.image("_MG_1613.jpg")
         with w_column:
             st.write("WhatsApp")
+            st.image("_MG_1613.jpg")
             
 
