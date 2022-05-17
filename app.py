@@ -110,5 +110,10 @@ with st.container():
             st.write("WhatsApp")
             st.image("_MG_1613.jpg")
            
-            
+             [theme]
+primaryColor = "#E694FF"
+backgroundColor = "#00172B"
+secondaryBackgroundColor = "#0083B8"
+textColor = "#C6CDD4"
+font = "sans-serif"
 
