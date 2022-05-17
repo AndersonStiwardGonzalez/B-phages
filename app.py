@@ -2,7 +2,7 @@
 # pagina: https://share.streamlit.io/andersonstiwardgonzalez/b-phages/main/app.py
 import streamlit as st
 
-st.title("B-phages", anchor=none)
+st.title("B-phages")
 st.image("_MG_1613.jpg")
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
