@@ -108,12 +108,7 @@ with st.container():
         st.image("_MG_1613.jpg")
         with w_column:
             st.write("WhatsApp")
-            st.image("_MG_1613.jpg")
+            st.image("5ae21cc526c97415d3213554.png")
            
-[theme]
-primaryColor = "#E694FF"
-backgroundColor = "#00172B"
-secondaryBackgroundColor = "#0083B8"
-textColor = "#C6CDD4"
-font = "sans-serif"
+
 
