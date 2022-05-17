@@ -109,6 +109,8 @@ with st.container():
         with w_column:
             st.write("WhatsApp")
             st.image("5ae21cc526c97415d3213554.png")
-           
+            with y_column:
+                 st.write("Youtube")
+                 st.image("youtube.png")   
 
 
