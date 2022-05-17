@@ -1,27 +1,6 @@
 # Local URL: http://localhost:8501 Network URL: http://192.168.1.2:8501
 # pagina: https://share.streamlit.io/andersonstiwardgonzalez/b-phages/main/app.py
 import streamlit as st
-import pandas as pd 
-from datetime import datetime
-
-
-df = pd.read_csv("all_data_streamlit.csv")
-
-
-def plot_count_keyword(df):       
-    kw_count_sender_selectbox = [st.sidebar.selectbox(
-        "Senders", df["sender"].unique())] # Dropdown box to select sender
-    kw_count_keyword_selectbox = [st.sidebar.selectbox(
-        "Keywords", df["Keywords"].unique())] # Dropdown box to select the keyword
-
-    
-    df_kw_count_selected_sender = df[df["sender"].isin(kw_count_sender_selectbox)]
-    df_kw_count_selected_keyword = df_kw_count_selected_sender[df_kw_count_selected_sender["keyword"].isin(kw_count_keyword_selectbox)] 
-
-    df_kw_count_selected_keyword.groupby(["mail_date"]).sum().plot()
-    plt.show()    
-    st.pyplot(fig=plt)
-plot_count_keyword(df)
 
 st.title("B-phages")
 st.image("_MG_1613.jpg")
