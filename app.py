@@ -107,4 +107,28 @@ with st.container():
         st.write("Instagram")
         with w_column:
             st.write("WhatsApp")
+            
+import streamlit as st
+import pandas as pd 
+import matplotlib.pyplot as plt
+from datetime import datetime
+
+
+df = pd.read_csv("all_data_streamlit.csv")
+
+
+def plot_count_keyword(df):       
+    kw_count_sender_selectbox = [st.sidebar.selectbox(
+        "Senders", df["sender"].unique())] # Dropdown box to select sender
+    kw_count_keyword_selectbox = [st.sidebar.selectbox(
+        "Keywords", df["Keywords"].unique())] # Dropdown box to select the keyword
+
+    
+    df_kw_count_selected_sender = df[df["sender"].isin(kw_count_sender_selectbox)]
+    df_kw_count_selected_keyword = df_kw_count_selected_sender[df_kw_count_selected_sender["keyword"].isin(kw_count_keyword_selectbox)] 
+
+    df_kw_count_selected_keyword.groupby(["mail_date"]).sum().plot()
+    plt.show()    
+    st.pyplot(fig=plt)
+plot_count_keyword(df)
 
