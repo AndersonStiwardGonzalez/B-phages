@@ -114,5 +114,5 @@ with st.container():
                  st.image("youtube.png")
                  with c_column:
                      st.write("G-mail")
-                     st.image("gmail.png",caption=("G-MAIL)., width(3))
+                     st.image("gmail.png",caption=("G-MAIL), width(3))
 
