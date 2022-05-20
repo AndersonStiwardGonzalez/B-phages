@@ -3,7 +3,7 @@
 import streamlit as st
 
 st.title("B-phages")
-st.image("_MG_1613.jpg")
+st.image("fago.png")
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
 st.write("Somos los mejores")
@@ -16,19 +16,19 @@ with st.container():
     with ana_column:
 
         st.write("Ana Maria Ruiz León")
-        st.image("_MG_1613.jpg")
+        st.image("ana.jpg")
         st.write("Gerente de la empresa")
         st.write("[Conoce más de Ana](https://co.linkedin.com/)")
         
         with carolina_column:
             st.write("Diana Carolina Giralda Valderrama")
-            st.image("_MG_1613.jpg")
+            st.image("caro.jpg")
             st.write("Jefe de Mercadeo de la empresa")
             st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
             
             with tomas_column:
                 st.write("Tomas Molina Benjumea")
-                st.image("_MG_1613.jpg")
+                st.image("tomas.png.jpg")
                 st.write("Jefe de Calidad de la empresa")
                 st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
                 with anderson_column:
