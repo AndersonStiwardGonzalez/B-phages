@@ -115,4 +115,3 @@ with st.container():
                  with c_column:
                      st.write("G-mail")
                      st.image("gmail.png")
-
