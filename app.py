@@ -6,7 +6,7 @@ i_column, c_column, d_column = st.columns(3)
 with i_column:
       st.write("")
       with c_column:
-          st.tittle("B-phages")
+          st.title("B-phages")
           with d_column:
                st.write("")
                  
