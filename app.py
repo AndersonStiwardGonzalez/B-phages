@@ -3,6 +3,7 @@
 import streamlit as st
 
 st.title("B-phages")
+<div style="text-align: center"> "B-phages" </div>
 st.image("fago.png",use_column_width=True)
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
