@@ -94,7 +94,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.title("Plan de mercadeo 4ps")
-    st.write("misionintesrtezasfsfs")
+    st.image("4p.png",caption="Imagen de las 4 ps (producto,precio,plaza y promoción)")
 
 with st.container():
     st.write("---")
