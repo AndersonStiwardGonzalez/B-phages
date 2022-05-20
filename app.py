@@ -18,24 +18,24 @@ with st.container():
         st.write("Ana Maria Ruiz León")
         st.image("ana.jpg")
         st.write("Gerente de la empresa")
-        st.write("[Conoce más de Ana](https://co.linkedin.com/)")
+        st.write("[Conoce más de Ana](https://www.linkedin.com/in/ana-mar%C3%ADa-ruiz-le%C3%B3n-7439b2239/)")
         
         with carolina_column:
             st.write("Diana Carolina Giralda Valderrama")
             st.image("caro.jpg")
             st.write("Jefe de Mercadeo de la empresa")
-            st.write("[Conoce más de Carolina](https://co.linkedin.com/)")
+            st.write("[Conoce más de Carolina](https://www.linkedin.com/in/carolina-giraldo-valderrama-5859b1239/)")
             
             with tomas_column:
                 st.write("Tomas Molina Benjumea")
                 st.image("tomas.png.jpg")
                 st.write("Jefe de Calidad de la empresa")
-                st.write("[Conoce más de Tomas](https://co.linkedin.com/)")
+                st.write("[Conoce más de Tomas](https://www.linkedin.com/in/tomas-molina-benjumea-5935b4234/)")
                 with anderson_column:
                     st.write("Anderson Stiward González Rivera")
                     st.image("_MG_1613.jpg")
                     st.write("Jefe de talento humano de la empresa")
-                    st.write("[Conoce más de Anderson](https://co.linkedin.com/)")
+                    st.write("[Conoce más de Anderson](https://www.linkedin.com/in/anderson-stiward-gonzalez-rivera-6b5aa8237/)")
 
 
 with st.container():
