@@ -3,12 +3,13 @@
 import streamlit as st
 
 i_column, c_column, d_column = st.columns(3)
-with i_column:
-  st.write("")
-  with c_column:
-       st.title("B-phages")
-       with.d_column:
-            st.write("")
+  with i_column:
+        st.write("")
+        with c_column:
+            st.write("B-phages")
+            with d_column:
+                 st.write("")
+                 
 st.image("fago.png",use_column_width=True)
 st.header("Tu salud, nuestro compromiso")
 st.write("Queremos darte el mejor de los tratamientos contra las infecciones por bacterias multiresistentes")
