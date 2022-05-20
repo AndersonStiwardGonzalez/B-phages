@@ -23,24 +23,24 @@ with st.container():
     with ana_column:
 
         st.write("Ana Maria Ruiz León")
-        st.image("ana.jpg")
+        st.image("ana.jpg",use_column_width=True)
         st.write("Gerente de la empresa")
         st.write("[Conoce más de Ana](https://www.linkedin.com/in/ana-mar%C3%ADa-ruiz-le%C3%B3n-7439b2239/)")
         
         with carolina_column:
             st.write("Diana Carolina Giralda Valderrama")
-            st.image("caro.jpg")
+            st.image("caro.jpg",use_column_width=True)
             st.write("Jefe de Mercadeo de la empresa")
             st.write("[Conoce más de Carolina](https://www.linkedin.com/in/carolina-giraldo-valderrama-5859b1239/)")
             
             with tomas_column:
                 st.write("Tomas Molina Benjumea")
-                st.image("tomas.png.jpg")
+                st.image("tomas.png.jpg,use_column_width=True")
                 st.write("Jefe de Calidad de la empresa")
                 st.write("[Conoce más de Tomas](https://www.linkedin.com/in/tomas-molina-benjumea-5935b4234/)")
                 with anderson_column:
                     st.write("Anderson Stiward González Rivera")
-                    st.image("_MG_1613.jpg")
+                    st.image("_MG_1613.jpg",use_column_width=True)
                     st.write("Jefe de talento humano de la empresa")
                     st.write("[Conoce más de Anderson](https://www.linkedin.com/in/anderson-stiward-gonzalez-rivera-6b5aa8237/)")
 
@@ -112,13 +112,13 @@ with st.container():
     i_column, w_column, c_column, y_column = st.columns(4)
     with i_column:
         st.write("Instagram")
-        st.image("instagram.png")
+        st.image("instagram.png",use_column_width=True)
         with w_column:
             st.write("WhatsApp")
-            st.image("5ae21cc526c97415d3213554.png")
+            st.image("5ae21cc526c97415d3213554.png",use_column_width=True)
             with y_column:
                  st.write("Youtube")
-                 st.image("youtube.png")
+                 st.image("youtube.png",use_column_width=True)
                  with c_column:
                      st.write("G-mail")
-                     st.image("gmail.png")
+                     st.image("gmail.png",use_column_width=True)
